@@ -46,15 +46,15 @@
     }
 
     40% {
-        bottom: 170px;
-    }
-
-    50% {
         bottom: 180px;
     }
 
+    50% {
+        bottom: 190px;
+    }
+
     60% {
-        bottom: 170px;
+        bottom: 180px;
     }
 
     100% {
