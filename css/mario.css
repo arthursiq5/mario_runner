@@ -1,4 +1,4 @@
-.mario {
+#mario {
     width: 150px;
     position: absolute;
     bottom: 0;
@@ -14,15 +14,15 @@
     }
 
     40% {
-        bottom: 190px;
-    }
-
-    50% {
         bottom: 200px;
     }
 
+    50% {
+        bottom: 210px;
+    }
+
     60% {
-        bottom: 190px;
+        bottom: 200px;
     }
 
     100% {
@@ -30,7 +30,7 @@
     }
 }
 
-.game-over .mario {
+.game-over #mario {
     animation: none;
     width: 75px;
     margin-left: 50px;

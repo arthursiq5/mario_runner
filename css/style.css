@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.game-board {
+#game-board {
     width: 80%;
     height: 500px;
     border-bottom: 15px solid rgb(15, 160, 15);
