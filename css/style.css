@@ -14,55 +14,6 @@
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
 
-.pipe {
-    position: absolute;
-    bottom: 0;
-    width: 80px;
-    animation: pipe-animation 2s infinite linear;
-}
-
-@keyframes pipe-animation {
-    from {
-        right: -80px;
-    }
-
-    to {
-        right: 100%;
-    }
-}
-
-.mario {
-    width: 150px;
-    position: absolute;
-    bottom: 0;
-}
-
-.jump {
-    animation: jump 500ms ease-out;
-}
-
-@keyframes jump {
-    0% {
-        bottom: 0;
-    }
-
-    40% {
-        bottom: 180px;
-    }
-
-    50% {
-        bottom: 190px;
-    }
-
-    60% {
-        bottom: 180px;
-    }
-
-    100% {
-        bottom: 0;
-    }
-}
-
 .clouds {
     width: 550px;
     position: absolute;
@@ -77,4 +28,20 @@
     to {
         right: 100%;
     }
+}
+
+#restart {
+    position: absolute;
+    max-width: 200px;
+    left: calc(50% - 100px);
+    top: 40%;
+    display: none;
+}
+
+.game-over #restart {
+    display: block;
+}
+
+#restart img {
+    max-width: 100%;
 }
